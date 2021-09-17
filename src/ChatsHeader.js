@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ChatsHeader() {
     return (
         <div
@@ -65,7 +67,12 @@ function ChatsHeader() {
           </div>
           <div>
             <i class="fas fa-search"></i>
-            <i class="fas fa-phone-alt"></i><i class="fas fa-video"></i>
+            <Link to="/in-call">
+              <i class="fas fa-phone-alt"></i>
+            </Link>
+            <Link to="/in-call">
+              <i class="fas fa-video"></i>
+            </Link>
             <i class="fas fa-ellipsis-v"></i>
           </div>
         </div>

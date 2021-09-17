@@ -171,7 +171,7 @@ body {
   width: 50%;
   display: flex;
   height: calc(100vh - 139px);
-  background-color: rgb(155, 255, 242);
+  background-color: #ffffff;
 }
 
 .message-bar {
@@ -398,7 +398,8 @@ input:checked + .slider:before {
 }
 
 .chat-bubble {
-  background-color: white;
+  background-color: #4d94ff;
+  color: #ffffff;
   border-radius: 35px;
   margin-bottom: 25px;
   padding: 15px 25px;
@@ -780,4 +781,112 @@ input:checked + .slider:before {
   padding-left: 35px !important;
   margin-right: 0 !important;
   font-size: 14px;
+}
+.messenger-chat {
+  width: 100%;
+}
+.incall-chats {
+  width: 23%;
+}
+.incall-chats .messenger-chat {
+  border-left: 1px solid rgb(221, 221, 221);
+}
+.call-options-centre {
+  width: 57%;
+}
+.close-right-bar-call {
+  font-size: 1.5rem;
+}
+.gs-call {
+  border-right: 1px solid rgb(221, 221, 221);
+}
+.call-options-centre {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.call-options-centre-middle {
+  height: 80%;
+  width: 100%;
+  padding: 30px;
+}
+.call-options-centre-middle img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 2px;
+  border: 2px solid rgb(121, 206, 255);
+}
+.cocm-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.cocm-container div {
+  border: 1px solid rgb(230, 230, 230);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 15px;
+}
+.call-options-centre-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 30px;
+}
+.cocb-btn {
+  background-color: rgb(224, 224, 224);
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  margin: 10px;
+}
+.cocb-btn.call-decline {
+  background-color: rgb(255, 22, 22);
+  color: rgb(235, 235, 235);
+}
+.cocb-btn.call-decline:hover {
+  color: rgb(231, 231, 231);
+}
+.cocb-btn:hover {
+  color: black;
+  text-decoration: none;
+}
+.call-options-centre-bottom div {
+  display: flex;
+}
+.call-options-centre-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 45px;
+}
+.coct-p1 {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+.coct-p2 {
+  font-weight: 600;
+  color: rgb(134, 134, 134);
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+.coct-div-1 {
+  display: flex;
+  align-items: center;
 }
